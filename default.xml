@@ -15,6 +15,7 @@
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+  <remote name="ros" fetch="https://github.com/ros"/>
 
 
   <remote name="EA"          fetch="https://github.com/embeddedartists"/>
@@ -47,6 +48,8 @@
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dcc814d6dda04690d7ceaae95829909180fc0321" upstream="mickledore"/>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="b548f5bdb99be79e7ee044e502562f7845180590" />
+  
+  <project remote="ros" name="meta-ros" path="sources/meta-ros" revision="b7cb9f63ca732aea6970f30163e1bb2d0ce6b70f" />
 
 
 </manifest>
